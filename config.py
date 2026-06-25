@@ -1,4 +1,3 @@
-# Fake secret for classroom testing only.
-# Do not use real credentials.
+import os
 
-AWS_ACCESS_KEY_ID = "AKIAQ3W7E9R2T6Y8U0P1"
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
